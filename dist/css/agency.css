@@ -188,7 +188,7 @@ img::-moz-selection {
   color: #fed136;
 }
 
-@media (min-width: 767px) {
+
   #mainNav {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -213,7 +213,7 @@ img::-moz-selection {
     padding: 12px 0;
   }
 
-}
+
 
 
 header.masthead {
@@ -342,7 +342,7 @@ text-decoration: none;
   z-index: 2;
 }
 
-@media (min-width: 767px) {
+
   #portfolio .portfolio-item {
     margin: 0 0 30px;
   }
@@ -411,7 +411,7 @@ text-decoration: none;
     background-color: #212529;
   }
 
-}
+
 
 
 
