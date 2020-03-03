@@ -266,6 +266,15 @@ header.masthead .intro-text .intro-heading {
 
 @media (min-width: 58px) {
 
+  header.masthead {
+
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;
+
+  }
+
 header.masthead .container {
   margin-top: -120px;
 }
