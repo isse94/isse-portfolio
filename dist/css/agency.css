@@ -532,7 +532,7 @@ text-align: center;
   -ms-transition: all .2s ease-in-out;
 }
 #pdfImg {
-  height: 70px;
+  height: 63px;
   padding: 10px;
   margin: 30px;
   -webkit-transition: all .2s ease-in-out;
@@ -545,6 +545,17 @@ text-align: center;
   #stayConnectedImg{
 display: inline-block;
 margin: 1px;
+  }
+  .socialIcons img{
+    height: 55px;
+    padding: 10px;
+    margin: 0px;
+
+  }
+  #pdfImg {
+    height: 58px;
+    padding: 10px;
+    margin: 0px
   }
 
   }
