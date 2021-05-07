@@ -1,0 +1,339 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Isse²</title>
+  <link rel="shortcut icon" href="" />
+  <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Archivo:700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <style>
+    body {
+      background-color: #1A202C;
+      font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    }
+
+
+    .container {
+      width: 100%;
+      height: 45%;
+      margin-top: 20vh;
+      text-align: center;
+      display: inline-block;
+      /* flex-direction: column; */
+      /* background-color: #6154fe; */
+
+    }
+
+
+    video {
+      width: 100%;
+      height: 100%;
+
+    }
+
+    #video1 {
+      padding: 0;
+      width: 40%;
+      height: 300px;
+      margin-left: 20px;
+      float: left;
+      /* background-color: aqua; */
+    }
+
+    #pictureContainer {
+
+      padding: 0;
+      width: 15%;
+      height: 200px;
+      margin: 70 auto;
+      float: left;
+      /* background-color: aqua; */
+    }
+
+    #pictureContainer img {
+      /* margin: 30 30 auto; */
+      width: 70%;
+      height: 70%;
+      border-style: none;
+      box-shadow: 5px 10px 18px rgb(97, 118, 211);
+      transition: all .2s ease-in-out;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+      border-radius: 50%;
+    }
+
+    #pictureContainer img:hover {
+      transform: scale(1.2);
+    }
+
+    #video2 {
+      /* margin-top: 45px; */
+      padding: 0;
+      width: 40%;
+      height: 300px;
+      margin-right: 40px;
+      float: right;
+      /* background-color: palevioletred; */
+    }
+
+
+    #profile {
+      margin-left: 20%;
+      font-size: 80%;
+      display: inline-block;
+      /* background-color: plum; */
+      width: 60%;
+      height: 25%;
+      margin-top: 3vh;
+      text-align: center;
+      display: inline-block;
+      color: #ECEDEE;
+
+    }
+
+    #profile #moreInfo {
+      color: #6C97B6;
+      font-weight: bold;
+    }
+
+
+    .the-second,
+    #profile h3 {
+      color: #6C97B6;
+      font-weight: bold;
+    }
+
+    /* social icons */
+    a {
+      text-decoration: none;
+    }
+
+    .socialIcons img {
+      height: 25px;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    #pdfImg {
+      height: 25px;
+      padding: 10px;
+      margin: 5px;
+    }
+
+    /* created own media query*/
+    @media (max-height: 733px),
+    (max-width: 1232px) {
+      #pictureContainer {
+        float: left;
+        margin-left: -15%;
+        /* margin-top: 45vh; */
+        width: 30%;
+        height: 50%;
+        /* display: inline-block; */
+
+      }
+
+      /* #container {
+    float: center;
+    margin: 0  auto;
+  } */
+      video {
+        width: 200%;
+        height: 60%;
+      }
+
+      #video1 {
+        margin-left: 10%;
+        margin-top: -20vh;
+        color: transparent;
+      }
+
+      #video1 p {
+
+        color: transparent;
+      }
+
+      #video2 {
+        margin-top: -10vh;
+        float: left;
+        margin-left: 10%;
+      }
+
+      #video2 p {
+        color: transparent;
+      }
+
+      #profile {
+        float: left;
+        display: inline-block;
+        margin-top: 10vh;
+      }
+    }
+
+    .message-alert-title {
+      font-weight: bold;
+    }
+
+    .message-alert.message-alert-warning {
+      color: #8a6d3b;
+      background-color: #fcf8e3;
+      border-color: #f9f0c3;
+    }
+
+
+    .message-alert {
+      padding: 15px;
+      border-left: 3px solid transparent;
+      position: relative;
+      text-align: left;
+    }
+
+    .message-alert-dismiss {
+      position: absolute;
+      right: 10px;
+      top: 10px;
+      padding: 3px;
+      font-size: 25px;
+      line-height: 1;
+      background: transparent;
+      color: inherit;
+      border: none;
+      cursor: pointer;
+    }
+
+    .hideWarning {
+      display: none;
+    }
+  </style>
+
+  <!-- Whole container  -->
+  <div>
+    <div class="message-container">
+      <div class="message-alert message-alert-warning" role="alert">
+        <span class="message-alert-title">Under construction </span>
+        <span class="message-alert-description"> * reactJS has entered the building * BRB gone to sack jQuery +
+          Bootstrap. Apologies for any inconvenience this has caused.</span>
+        <button type="button" class="message-alert-dismiss">
+          <span aria-hidden="true">×</span>
+        </button>
+      </div>
+    </div>
+    <!-- top Container -->
+    <div class="container">
+
+      <div id="video1">
+        <a href="https://github.com/isse94/oldPortfolio/tree/main/oldWebsite" rel="noopener noreferrer">
+          <video autoplay loop>
+            <source src="webVersion.mp4" type="video/mp4">
+          </video>
+        </a>
+        <p>💻🖥️</p>
+      </div>
+
+      <div id="pictureContainer"> <a href="https://www.linkedin.com/in/isse-isse-7b3836145/" rel="noopener noreferrer"
+          class="socialIcons">
+          <img src="issePic.jpeg" alt=""> </a> </div>
+
+
+      <div id="video2">
+        <a href="https://github.com/isse94/oldPortfolio/tree/main/oldWebsite" rel="noopener noreferrer">
+          <video autoplay loop>
+            <source src="mobileVersion.mp4" type="video/mp4">
+          </video> </a>
+
+        <p>📱</p>
+      </div>
+    </div> <!-- END of top container  -->
+
+    <!-- middle container -->
+    <div id="profile" class="col-lg-12 text-center">
+      <h3> Quick Summary
+      </h3>
+      <p>
+        Former Aerospace Engineer <span class="the-second"></span> </span>
+        with the skills to break and refine codebases.
+      </p>
+
+
+      <p>Love for coding expressed through building numerous projects and games from scratch.
+        <br> However what i did not do was build my portfolio site from scratch
+        rather i was guilty of using alot of Bootstrap (early parts of Dev journey) 😁😂 & <br> jQuery until i realised
+        i was little late to the party and needed keep up with current trends.
+        <br> What i'm currently doing is building my site using the illustrious ReactJS ⚛️❤️ which i have truley grown
+        to love and enjoy!
+        <br> <span id="moreInfo"> More information below.</span>
+      </p>
+
+
+      <a href="https://dev.to/isse94" rel="noopener noreferrer" class="socialIcons">
+        <img alt="DEV.to"
+          src="data:image/svg+xml;base64,PHN2ZyB2aWV3Qm94PSIwIDMyIDQ0Ny45OTk5OTk5OTk5OTk5NCA0NDgiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1MDAiIGhlaWdodD0iMjMyMSI+PHBhdGggZD0iTTEyMC4xMiAyMDguMjljLTMuODgtMi45LTcuNzctNC4zNS0xMS42NS00LjM1SDkxLjAzdjEwNC40N2gxNy40NWMzLjg4IDAgNy43Ny0xLjQ1IDExLjY1LTQuMzVzNS44Mi03LjI1IDUuODItMTMuMDZ2LTY5LjY1Yy0uMDEtNS44LTEuOTYtMTAuMTYtNS44My0xMy4wNnpNNDA0LjEgMzJINDMuOUMxOS43IDMyIC4wNiA1MS41OSAwIDc1Ljh2MzYwLjRDLjA2IDQ2MC40MSAxOS43IDQ4MCA0My45IDQ4MGgzNjAuMmMyNC4yMSAwIDQzLjg0LTE5LjU5IDQzLjktNDMuOFY3NS44Yy0uMDYtMjQuMjEtMTkuNy00My44LTQzLjktNDMuOHpNMTU0LjIgMjkxLjE5YzAgMTguODEtMTEuNjEgNDcuMzEtNDguMzYgNDcuMjVoLTQ2LjRWMTcyLjk4aDQ3LjM4YzM1LjQ0IDAgNDcuMzYgMjguNDYgNDcuMzcgNDcuMjh6bTEwMC42OC04OC42NkgyMDEuNnYzOC40MmgzMi41N3YyOS41N0gyMDEuNnYzOC40MWg1My4yOXYyOS41N2gtNjIuMThjLTExLjE2LjI5LTIwLjQ0LTguNTMtMjAuNzItMTkuNjlWMTkzLjdjLS4yNy0xMS4xNSA4LjU2LTIwLjQxIDE5LjcxLTIwLjY5aDYzLjE5em0xMDMuNjQgMTE1LjI5Yy0xMy4yIDMwLjc1LTM2Ljg1IDI0LjYzLTQ3LjQ0IDBsLTM4LjUzLTE0NC44aDMyLjU3bDI5LjcxIDExMy43MiAyOS41Ny0xMTMuNzJoMzIuNTh6Ii8+PC9zdmc+" />
+      </a>
+
+      <a href="https://www.linkedin.com/in/isse-isse-7b3836145/" rel="noopener noreferrer" class="socialIcons">
+        <img alt="LinkedIn"
+          src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5saW5rZWRpbjwvdGl0bGU+CiAgICA8ZGVzYz5DcmVhdGVkIHdpdGggU2tldGNoLjwvZGVzYz4KICAgIDxnIGlkPSJQYWdlLTEiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIiBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgICAgIDxnIGlkPSJsaW5rZWRpbiIgZmlsbD0iIzc3Nzc3NyIgZmlsbC1ydWxlPSJub256ZXJvIj4KICAgICAgICAgICAgPHBhdGggZD0iTTIwLjQ0NywyMC40NTIgTDE2Ljg5MywyMC40NTIgTDE2Ljg5MywxNC44ODMgQzE2Ljg5MywxMy41NTUgMTYuODY2LDExLjg0NiAxNS4wNDEsMTEuODQ2IEMxMy4xODgsMTEuODQ2IDEyLjkwNSwxMy4yOTEgMTIuOTA1LDE0Ljc4NSBMMTIuOTA1LDIwLjQ1MiBMOS4zNTEsMjAuNDUyIEw5LjM1MSw5IEwxMi43NjUsOSBMMTIuNzY1LDEwLjU2MSBMMTIuODExLDEwLjU2MSBDMTMuMjg4LDkuNjYxIDE0LjQ0OCw4LjcxMSAxNi4xODEsOC43MTEgQzE5Ljc4Miw4LjcxMSAyMC40NDgsMTEuMDgxIDIwLjQ0OCwxNC4xNjYgTDIwLjQ0OCwyMC40NTIgTDIwLjQ0NywyMC40NTIgWiBNNS4zMzcsNy40MzMgQzQuMTkzLDcuNDMzIDMuMjc0LDYuNTA3IDMuMjc0LDUuMzY4IEMzLjI3NCw0LjIzIDQuMTk0LDMuMzA1IDUuMzM3LDMuMzA1IEM2LjQ3NywzLjMwNSA3LjQwMSw0LjIzIDcuNDAxLDUuMzY4IEM3LjQwMSw2LjUwNyA2LjQ3Niw3LjQzMyA1LjMzNyw3LjQzMyBaIE03LjExOSwyMC40NTIgTDMuNTU1LDIwLjQ1MiBMMy41NTUsOSBMNy4xMTksOSBMNy4xMTksMjAuNDUyIFogTTIyLjIyNSwwIEwxLjc3MSwwIEMwLjc5MiwwIDguODgxNzg0MmUtMTYsMC43NzQgOC44ODE3ODQyZS0xNiwxLjcyOSBMOC44ODE3ODQyZS0xNiwyMi4yNzEgQzguODgxNzg0MmUtMTYsMjMuMjI3IDAuNzkyLDI0IDEuNzcxLDI0IEwyMi4yMjIsMjQgQzIzLjIsMjQgMjQsMjMuMjI3IDI0LDIyLjI3MSBMMjQsMS43MjkgQzI0LDAuNzc0IDIzLjIsLTguODgxNzg0MmUtMTYgMjIuMjIyLC04Ljg4MTc4NDJlLTE2IEwyMi4yMjUsMCBaIiBpZD0iU2hhcGUiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" />
+      </a>
+
+      <a href="https://github.com/isse94" rel="noopener noreferrer" class="socialIcons">
+        <img alt="Github"
+          src="data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz4KPHN2ZyB3aWR0aD0iMjRweCIgaGVpZ2h0PSIyNHB4IiB2aWV3Qm94PSIwIDAgMjQgMjQiIHZlcnNpb249IjEuMSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+CiAgICA8IS0tIEdlbmVyYXRvcjogU2tldGNoIDUyLjYgKDY3NDkxKSAtIGh0dHA6Ly93d3cuYm9oZW1pYW5jb2RpbmcuY29tL3NrZXRjaCAtLT4KICAgIDx0aXRsZT5naXRodWI8L3RpdGxlPgogICAgPGRlc2M+Q3JlYXRlZCB3aXRoIFNrZXRjaC48L2Rlc2M+CiAgICA8ZyBpZD0iUGFnZS0xIiBzdHJva2U9Im5vbmUiIHN0cm9rZS13aWR0aD0iMSIgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgICAgICA8ZyBpZD0iZ2l0aHViIiBmaWxsPSIjNzc3Nzc3Ij4KICAgICAgICAgICAgPHBhdGggZD0iTTEyLDAuMjk3IEM1LjM3LDAuMjk3IDAsNS42NyAwLDEyLjI5NyBDMCwxNy42IDMuNDM4LDIyLjA5NyA4LjIwNSwyMy42ODIgQzguODA1LDIzLjc5NSA5LjAyNSwyMy40MjQgOS4wMjUsMjMuMTA1IEM5LjAyNSwyMi44MiA5LjAxNSwyMi4wNjUgOS4wMSwyMS4wNjUgQzUuNjcyLDIxLjc4OSA0Ljk2OCwxOS40NTUgNC45NjgsMTkuNDU1IEM0LjQyMiwxOC4wNyAzLjYzMywxNy43IDMuNjMzLDE3LjcgQzIuNTQ2LDE2Ljk1NiAzLjcxNywxNi45NzEgMy43MTcsMTYuOTcxIEM0LjkyMiwxNy4wNTUgNS41NTUsMTguMjA3IDUuNTU1LDE4LjIwNyBDNi42MjUsMjAuMDQyIDguMzY0LDE5LjUxMiA5LjA1LDE5LjIwNSBDOS4xNTgsMTguNDI5IDkuNDY3LDE3LjkgOS44MSwxNy42IEM3LjE0NSwxNy4zIDQuMzQ0LDE2LjI2OCA0LjM0NCwxMS42NyBDNC4zNDQsMTAuMzYgNC44MDksOS4yOSA1LjU3OSw4LjQ1IEM1LjQ0NCw4LjE0NyA1LjAzOSw2LjkyNyA1LjY4NCw1LjI3NCBDNS42ODQsNS4yNzQgNi42ODksNC45NTIgOC45ODQsNi41MDQgQzkuOTQ0LDYuMjM3IDEwLjk2NCw2LjEwNSAxMS45ODQsNi4wOTkgQzEzLjAwNCw2LjEwNSAxNC4wMjQsNi4yMzcgMTQuOTg0LDYuNTA0IEMxNy4yNjQsNC45NTIgMTguMjY5LDUuMjc0IDE4LjI2OSw1LjI3NCBDMTguOTE0LDYuOTI3IDE4LjUwOSw4LjE0NyAxOC4zODksOC40NSBDMTkuMTU0LDkuMjkgMTkuNjE5LDEwLjM2IDE5LjYxOSwxMS42NyBDMTkuNjE5LDE2LjI4IDE2LjgxNCwxNy4yOTUgMTQuMTQ0LDE3LjU5IEMxNC41NjQsMTcuOTUgMTQuOTU0LDE4LjY4NiAxNC45NTQsMTkuODEgQzE0Ljk1NCwyMS40MTYgMTQuOTM5LDIyLjcwNiAxNC45MzksMjMuMDk2IEMxNC45MzksMjMuNDExIDE1LjE0OSwyMy43ODYgMTUuNzY0LDIzLjY2NiBDMjAuNTY1LDIyLjA5MiAyNCwxNy41OTIgMjQsMTIuMjk3IEMyNCw1LjY3IDE4LjYyNywwLjI5NyAxMiwwLjI5NyIgaWQ9IlBhdGgiPjwvcGF0aD4KICAgICAgICA8L2c+CiAgICA8L2c+Cjwvc3ZnPg==" />
+      </a>
+      <a href="https://www.dropbox.com/s/r9a767rlctf8ais/Isse%20%20cv.pdf?dl=1" rel="noopener noreferrer"
+        class="socialIcons">
+        <svg id="pdfImg" data-icon="file-pdf"
+          class="svg-inline--fa fa-file-pdf fa-w-12 fa-3x fa-rotate-null fa-pull-null " role="img"
+          xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
+          <path fill="#777777"
+            d="M181.9 256.1c-5-16-4.9-46.9-2-46.9 8.4 0 7.6 36.9 2 46.9zm-1.7 47.2c-7.7 20.2-17.3 43.3-28.4 62.7 18.3-7 39-17.2 62.9-21.9-12.7-9.6-24.9-23.4-34.5-40.8zM86.1 428.1c0 .8 13.2-5.4 34.9-40.2-6.7 6.3-29.1 24.5-34.9 40.2zM248 160h136v328c0 13.3-10.7 24-24 24H24c-13.3 0-24-10.7-24-24V24C0 10.7 10.7 0 24 0h200v136c0 13.2 10.8 24 24 24zm-8 171.8c-20-12.2-33.3-29-42.7-53.8 4.5-18.5 11.6-46.6 6.2-64.2-4.7-29.4-42.4-26.5-47.8-6.8-5 18.3-.4 44.1 8.1 77-11.6 27.6-28.7 64.6-40.8 85.8-.1 0-.1.1-.2.1-27.1 13.9-73.6 44.5-54.5 68 5.6 6.9 16 10 21.5 10 17.9 0 35.7-18 61.1-61.8 25.8-8.5 54.1-19.1 79-23.2 21.7 11.8 47.1 19.5 64 19.5 29.2 0 31.2-32 19.7-43.4-13.9-13.6-54.3-9.7-73.6-7.2zM377 105L279 7c-4.5-4.5-10.6-7-17-7h-6v128h128v-6.1c0-6.3-2.5-12.4-7-16.9zm-74.1 255.3c4.1-2.7-2.5-11.9-42.8-9 37.1 15.8 42.8 9 42.8 9z">
+          </path>
+        </svg>
+      </a>
+
+
+    </div> <!-- END of middle container  -->
+
+
+  </div> <!-- END of Whole container  -->
+
+
+
+
+
+
+  <script type="text/javascript">
+    'use strict';
+
+    // change intro sentences
+    let secondText = ['turned highly creative', 'self-taught', ' front-end developer', 'and Tech enthusiast', ];
+    var counter = 0;
+    var elem = document.querySelector('.the-second');
+    var inst = setInterval(change, 2000);
+
+    function change() {
+      elem.innerHTML = secondText[counter];
+      counter++;
+      if (counter >= secondText.length) {
+        counter = 0;
+        // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
+      }
+    }
+
+    // close/hide warning button 
+    let warningBtn = document.querySelector('.message-alert-dismiss');
+    let messageContainer = document.querySelector('.message-container');
+    warningBtn.addEventListener('click', function () {
+      messageContainer.classList.add('hideWarning');
+    });
+  </script>
+
+</body>
+
+</html>
