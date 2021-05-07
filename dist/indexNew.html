@@ -8,210 +8,12 @@
   <link rel="shortcut icon" href="" />
   <link href="https://fonts.googleapis.com/css?family=Archivo+Black&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css?family=Archivo:700&display=swap" rel="stylesheet">
+
+  <link href="css/index.css" rel="stylesheet">
 </head>
 
 <body>
-  <style>
-    body {
-      background-color: #1A202C;
-      font-family: 'Roboto Slab', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
-    }
 
-
-    .container {
-      width: 100%;
-      height: 45%;
-      margin-top: 20vh;
-      text-align: center;
-      display: inline-block;
-      /* flex-direction: column; */
-      /* background-color: #6154fe; */
-
-    }
-
-
-    video {
-      width: 100%;
-      height: 100%;
-
-    }
-
-    #video1 {
-      padding: 0;
-      width: 40%;
-      height: 300px;
-      margin-left: 20px;
-      float: left;
-      /* background-color: aqua; */
-    }
-
-    #pictureContainer {
-
-      padding: 0;
-      width: 15%;
-      height: 200px;
-      margin: 70 auto;
-      float: left;
-      /* background-color: aqua; */
-    }
-
-    #pictureContainer img {
-      /* margin: 30 30 auto; */
-      width: 70%;
-      height: 70%;
-      border-style: none;
-      box-shadow: 5px 10px 18px rgb(97, 118, 211);
-      transition: all .2s ease-in-out;
-      -webkit-border-radius: 50%;
-      -moz-border-radius: 50%;
-      -ms-border-radius: 50%;
-      -o-border-radius: 50%;
-      border-radius: 50%;
-    }
-
-    #pictureContainer img:hover {
-      transform: scale(1.2);
-    }
-
-    #video2 {
-      /* margin-top: 45px; */
-      padding: 0;
-      width: 40%;
-      height: 300px;
-      margin-right: 40px;
-      float: right;
-      /* background-color: palevioletred; */
-    }
-
-
-    #profile {
-      margin-left: 20%;
-      font-size: 80%;
-      display: inline-block;
-      /* background-color: plum; */
-      width: 60%;
-      height: 25%;
-      margin-top: 3vh;
-      text-align: center;
-      display: inline-block;
-      color: #ECEDEE;
-
-    }
-
-    #profile #moreInfo {
-      color: #6C97B6;
-      font-weight: bold;
-    }
-
-
-    .the-second,
-    #profile h3 {
-      color: #6C97B6;
-      font-weight: bold;
-    }
-
-    /* social icons */
-    a {
-      text-decoration: none;
-    }
-
-    .socialIcons img {
-      height: 25px;
-      padding: 10px;
-      margin: 5px;
-    }
-
-    #pdfImg {
-      height: 25px;
-      padding: 10px;
-      margin: 5px;
-    }
-
-    /* created own media query*/
-    @media (max-height: 733px),
-    (max-width: 1232px) {
-      #pictureContainer {
-        float: left;
-        margin-left: -15%;
-        /* margin-top: 45vh; */
-        width: 30%;
-        height: 50%;
-        /* display: inline-block; */
-
-      }
-
-      /* #container {
-    float: center;
-    margin: 0  auto;
-  } */
-      video {
-        width: 200%;
-        height: 60%;
-      }
-
-      #video1 {
-        margin-left: 10%;
-        margin-top: -20vh;
-        color: transparent;
-      }
-
-      #video1 p {
-
-        color: transparent;
-      }
-
-      #video2 {
-        margin-top: -10vh;
-        float: left;
-        margin-left: 10%;
-      }
-
-      #video2 p {
-        color: transparent;
-      }
-
-      #profile {
-        float: left;
-        display: inline-block;
-        margin-top: 10vh;
-      }
-    }
-
-    .message-alert-title {
-      font-weight: bold;
-    }
-
-    .message-alert.message-alert-warning {
-      color: #8a6d3b;
-      background-color: #fcf8e3;
-      border-color: #f9f0c3;
-    }
-
-
-    .message-alert {
-      padding: 15px;
-      border-left: 3px solid transparent;
-      position: relative;
-      text-align: left;
-    }
-
-    .message-alert-dismiss {
-      position: absolute;
-      right: 10px;
-      top: 10px;
-      padding: 3px;
-      font-size: 25px;
-      line-height: 1;
-      background: transparent;
-      color: inherit;
-      border: none;
-      cursor: pointer;
-    }
-
-    .hideWarning {
-      display: none;
-    }
-  </style>
 
   <!-- Whole container  -->
   <div>
@@ -231,7 +33,7 @@
       <div id="video1">
         <a href="https://github.com/isse94/oldPortfolio/tree/main/oldWebsite" rel="noopener noreferrer">
           <video autoplay loop>
-            <source src="webVersion.mp4" type="video/mp4">
+            <source src="img/webVersion.mp4" type="video/mp4">
           </video>
         </a>
         <p>💻🖥️</p>
@@ -239,13 +41,13 @@
 
       <div id="pictureContainer"> <a href="https://www.linkedin.com/in/isse-isse-7b3836145/" rel="noopener noreferrer"
           class="socialIcons">
-          <img src="issePic.jpeg" alt=""> </a> </div>
+          <img src="img/issePic.jpeg" alt=""> </a> </div>
 
 
       <div id="video2">
         <a href="https://github.com/isse94/oldPortfolio/tree/main/oldWebsite" rel="noopener noreferrer">
           <video autoplay loop>
-            <source src="mobileVersion.mp4" type="video/mp4">
+            <source src="img/mobileVersion.mp4" type="video/mp4">
           </video> </a>
 
         <p>📱</p>
@@ -307,32 +109,7 @@
 
 
 
-
-  <script type="text/javascript">
-    'use strict';
-
-    // change intro sentences
-    let secondText = ['turned highly creative', 'self-taught', ' front-end developer', 'and Tech enthusiast', ];
-    var counter = 0;
-    var elem = document.querySelector('.the-second');
-    var inst = setInterval(change, 2000);
-
-    function change() {
-      elem.innerHTML = secondText[counter];
-      counter++;
-      if (counter >= secondText.length) {
-        counter = 0;
-        // clearInterval(inst); // uncomment this if you want to stop refreshing after one cycle
-      }
-    }
-
-    // close/hide warning button 
-    let warningBtn = document.querySelector('.message-alert-dismiss');
-    let messageContainer = document.querySelector('.message-container');
-    warningBtn.addEventListener('click', function () {
-      messageContainer.classList.add('hideWarning');
-    });
-  </script>
+  <script src="js/index.js"></script>
 
 </body>
 
